@@ -7,7 +7,7 @@ const secondsElement = document.getElementById("seconds");
 
 //Utility for ISO formating
 const formatBirthday = (year) => {
-  return `${year}-12-14T11:45:00.000Z`;
+  return `${year}-12-25T00:00:00.000Z`;
 };
 
 let year = new Date().getFullYear();
